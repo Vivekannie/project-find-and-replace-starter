@@ -23,10 +23,24 @@ fieldset label {
 input {
     margin-bottom: calc(var(--base-size) / 2);
 }
+.output {
+    margin-bottom: calc(var(--base-size) / 2);
+    background: rgb(20, 150, 231);
+    font-weight: bold;
+    float: right;
+    color: rgb(93, 198, 236);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 15px;
+    border-top: 1px solid rgb(107, 204, 104);
+    background-color: rgb(238, 245, 242);
+}
+
 
 button {
 
 }
+
 
 .grid {
     display: table;
