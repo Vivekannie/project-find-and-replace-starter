@@ -12,19 +12,20 @@
     <main>
         
         <fieldset>
-            <legend>Find &amp; Replace Text</legend>
-
+            <legend>Find &amp; Replace Text</legend>            
             <label for="find-input">Find:</label>
-            <input type="text" name="find-input" class="find-input"><br>
-
+            <input type="text" name="find-input" class="find-input"><br>            
             <label for="replace-input">Replace With:</label>
             <input type="text" name="replace-input" class="replace-input"><br>
-
+            <label tally="tally">Number of changes made:</label>
+            <output type=number name="tally" class="tally"></output>
             <button class="replace-all-button">Replace All</button>
+            <button class="replace-one-button">Replace One</button>
+
+            
         </fieldset>
         
-        <div class="grid">
-
+           <div class="grid">            
             <div class="column-headers">
                 <div class="cell">Full Name</div>
                 <div class="cell">Company</div>
@@ -277,11 +278,12 @@
                 <div class="cell" contenteditable="true">46821</div>
                 <div class="cell" contenteditable="true">Limburg</div>
                 <div class="cell" contenteditable="true">Burundi</div>
-            </div>
-
+            </div>       
         </div><!-- .grid -->
 
     </main>
+        
+    
 
     <script src="main.js"></script>
 </body>
